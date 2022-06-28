@@ -16,3 +16,10 @@ if submit:
     )
 
     st.image("generated.png")
+    with open("generated.png", "rb") as file:
+     btn = st.download_button(
+             label="Download image",
+             data=file,
+             file_name="generated.png",
+             mime="image/png"
+           )
