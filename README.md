@@ -1,6 +1,6 @@
 # min(DALL·E)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://min-dalle.streamlitapp.com/)
+<-- [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://min-dalle.streamlitapp.com/) -->
 
 This is a minimal implementation of [DALL·E Mini](https://github.com/borisdayma/dalle-mini).  It has been stripped to the bare essentials necessary for doing inference, and converted to PyTorch.  The only third party dependencies are `torch` for the torch model and `flax` for the flax model.
 
